@@ -1,0 +1,61 @@
+#nombre {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+#titulo {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .PRESENTACION_CV {
+    height: 100vh;
+    background-color: lightslategray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .PRESENTACION_CV h1 {
+        font-size: 4rem;
+  }
+
+.PRESENTACION_CV img {
+    width: 150px;
+}
+
+.INFORMACION_CV {
+    width: 50%;
+    float: left;
+    padding: 10px;
+    background-color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+.INFORMACION_CV h3 {
+  padding: 20px;
+  text-align: center;
+}
+
+.INFORMACION_CV p {
+  padding: 5px;
+}
+
+  
+  
+
+  @media only screen and (max-width: 576px) {
+    
+    .INFORMACION_CV {
+        width: 100%;
+    }
+
+  }
